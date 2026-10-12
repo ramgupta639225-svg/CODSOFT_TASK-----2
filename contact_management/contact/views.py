@@ -21,3 +21,4 @@ class ContactViewSet(viewsets.ModelViewSet):
     ordering = ('name',)
     pagination_class = ContactPagination
 
+
