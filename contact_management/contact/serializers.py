@@ -3,6 +3,7 @@ from .models import Contact
 import re
 
 
+
 class ContactSerializer(serializers.ModelSerializer):
 
     def validate_name(self, value):
@@ -42,4 +43,5 @@ class ContactSerializer(serializers.ModelSerializer):
     class Meta:
         model = Contact
         fields = "__all__"
+
 
