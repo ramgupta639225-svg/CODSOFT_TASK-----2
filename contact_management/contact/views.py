@@ -8,6 +8,7 @@ from .paginations import ContactPagination
 
 
 
+
 class ContactViewSet(viewsets.ModelViewSet):
     queryset = Contact.objects.all()
     serializer_class = ContactSerializer
