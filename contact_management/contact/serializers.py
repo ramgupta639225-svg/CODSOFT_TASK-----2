@@ -44,4 +44,3 @@ class ContactSerializer(serializers.ModelSerializer):
         model = Contact
         fields = "__all__"
 
-
