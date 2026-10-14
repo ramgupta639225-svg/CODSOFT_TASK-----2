@@ -34,6 +34,7 @@ class ContactSerializer(serializers.ModelSerializer):
             raise serializers.ValidationError('Address cannot be blank')
         return value.strip()
 
+
     def validate_company(self, value):
         if not value.strip():
             raise serializers.ValidationError('Company cannot be blank')
